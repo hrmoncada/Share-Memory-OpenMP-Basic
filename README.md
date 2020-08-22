@@ -14,8 +14,8 @@ OpenMP is a parallel programming model for shared memory and distributed shared-
 <!-- Comments -->
 ## Rules
 Here are the rules for (or lack thereof):
-   1. Push changes directly to head of https://github.com/hrmoncada/Message-Passing-Interface-MPI-Basic
-   2. No pull requests or reviews are needed, unless you would like one. This means that personal forks of /Message-Passing-Interface-MPI-Basic are not needed.
+   1. Push changes directly to head of https://github.com/hrmoncada/Share-Memory-OpenMP-Basic
+   2. No pull requests or reviews are needed, unless you would like one. This means that personal forks of /Share-Memory-OpenMP-Basic are not needed.
    3. Only restriction is to not overwrite files others have uploaded, without asking them.
    4. Scripts are not required to work in any particular way. The purpose is for the convenience of sharing scripts of any kind. Scripts do not come with any guarantees.
    5. Files may include everything, such as source code, source binary, figures and grapghics.
