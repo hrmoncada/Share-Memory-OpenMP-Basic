@@ -1,16 +1,17 @@
-/*  
+/****************************************************************************** 
  Compile
  $ gcc -g -Wall -fopenmp -o out example_4_OpenMP_Hello_World_Subroutine.c
 Execute
  $ ./out <number of threads>
- */
+******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>   
 
 void Hello(void);  /* Thread function */
-
-/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+* main
+*/
 int main(int argc, char* argv[]) {
     
    int thread_count = strtol(argv[1], NULL, 10); 
@@ -19,8 +20,7 @@ int main(int argc, char* argv[]) {
    Hello();
 
    return 0; 
-}  /* main */
-
+}
 /*-------------------------------------------------------------------
  * Function:    Hello
  * Purpose:     Thread function that prints message

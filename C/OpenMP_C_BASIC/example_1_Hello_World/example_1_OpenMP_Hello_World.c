@@ -10,8 +10,8 @@ $ gcc -fopenmp -o out omp_hello.c
 Execute :
 $ export OMP_NUM_THREADS=8
 $ ./out
-******************************************************************************/
-#include <omp.h>
+**-------------------------------------------------------------------*/
+#include <omp.h>  // OpenMP header file, invoke openmp functionality.
 #include <stdio.h>
 #include <stdlib.h>
 

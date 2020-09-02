@@ -4,9 +4,6 @@
 ! $ export OMP_NUM_THREADS=16
 ! Execute 
 ! $ ./out 
-!
-! The !$OMP PARALLEL and !$OMP END PARALLEL directives creates a section
-! of code that is run from all available threads.
 ! -------------------------------------------------------------------
  program hello_world
    use omp_lib
@@ -24,7 +21,7 @@
 
 end program
 ! -------------------------------------------------------------------
-!  * Function:    Hello
+!  * Subroutine:  Hello
 !  * Purpose:     Thread function that prints message
 ! ------------------------------------------------------------------- 
 subroutine hello( )

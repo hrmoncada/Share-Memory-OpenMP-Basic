@@ -18,14 +18,14 @@
 !  hello world from thread =            0
 !  number of threads =           16
 !  hello world from thread =           13
-
+! -------------------------------------------------------------------
 
 program hello
 
   call hellofunc
 
 end
-
+! -------------------------------------------------------------------
 subroutine hellofunc
 
   use omp_lib 
@@ -44,7 +44,7 @@ subroutine hellofunc
     nthreads = omp_get_num_threads()
     write(*,*) 'number of threads = ', nthreads
   end if
-
-! all threads join master thread and disband
 !$omp end parallel
+! all threads join master thread and disband
+
 end 
